@@ -1,6 +1,6 @@
 package com.example.practica.presentation.Country.CountryViewModel.kt
 
-import com.example.practica.domain.model.Country.kt.Country
+import com.example.practica.domain.model.Country.Country
 
 sealed class CountryDetailState {
     data object Loading : CountryDetailState()

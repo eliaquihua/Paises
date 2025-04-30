@@ -1,6 +1,6 @@
-package com.example.practica.data.remote.api.CountryApi.kt
+package com.example.practica.data.remote.api.CountryApi
 
-import com.example.practica.data.remote.dto.CountryDto.kt.CountryDto
+import com.example.practica.data.remote.dto.CountryDto.CountryDto
 import retrofit2.http.GET
 import retrofit2.http.Path
 

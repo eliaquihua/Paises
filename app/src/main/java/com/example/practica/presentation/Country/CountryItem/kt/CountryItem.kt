@@ -14,12 +14,12 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import com.example.practica.domain.model.Country.Country
 
-import com.example.practica.domain.model.Country.kt.Country
 
 
 @Composable
-fun CountryItem(country: Country,modifier: Modifier = Modifier,
+fun CountryItem(country: Country, modifier: Modifier = Modifier,
                 onClick: () -> Unit)
 {
     Card(

@@ -1,8 +1,8 @@
 package com.example.practica.data.di
 
-import com.example.practica.data.remote.api.CountryApi.kt.CountryApi
+import com.example.practica.data.remote.api.CountryApi.CountryApi
 import com.example.practica.data.remote.repository.CountryRepositoryImpl.kt.CountryRepositoryImpl
-import com.example.practica.domain.repository.CountryRepository.kt.CountryRepository
+import com.example.practica.domain.repository.CountryRepository.CountryRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

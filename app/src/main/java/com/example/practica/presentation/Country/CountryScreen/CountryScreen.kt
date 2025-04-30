@@ -1,6 +1,5 @@
 package com.example.practica.presentation.Country.CountryScreen
 
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -21,11 +20,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.text.style.LineHeightStyle
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
-import com.example.practica.domain.model.Country.kt.Country
 import com.example.practica.presentation.Country.CountryItem.kt.CountryItem
 import com.example.practica.presentation.Country.CountryViewModel.kt.CountryViewModel
 

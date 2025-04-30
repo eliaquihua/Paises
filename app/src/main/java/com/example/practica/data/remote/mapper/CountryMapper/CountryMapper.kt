@@ -1,8 +1,7 @@
-package com.example.practica.data.remote.mapper.CountryMapper.kt
+package com.example.practica.data.remote.mapper.CountryMapper
 
-import com.example.practica.data.remote.dto.CountryDto.kt.CountryDto
-import com.example.practica.domain.model.Country.kt.Country
-
+import com.example.practica.data.remote.dto.CountryDto.CountryDto
+import com.example.practica.domain.model.Country.Country
 
 fun CountryDto.toDomain(): Country {
     return Country(

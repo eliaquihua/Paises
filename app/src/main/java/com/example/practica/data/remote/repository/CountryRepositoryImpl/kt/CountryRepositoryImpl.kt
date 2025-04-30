@@ -1,9 +1,9 @@
 package com.example.practica.data.remote.repository.CountryRepositoryImpl.kt
 
-import com.example.practica.data.remote.api.CountryApi.kt.CountryApi
-import com.example.practica.data.remote.mapper.CountryMapper.kt.toDomain
-import com.example.practica.domain.model.Country.kt.Country
-import com.example.practica.domain.repository.CountryRepository.kt.CountryRepository
+import com.example.practica.data.remote.api.CountryApi.CountryApi
+import com.example.practica.data.remote.mapper.CountryMapper.toDomain
+import com.example.practica.domain.model.Country.Country
+import com.example.practica.domain.repository.CountryRepository.CountryRepository
 
 class CountryRepositoryImpl(private val api: CountryApi) : CountryRepository {
     override suspend fun getAllCountries(): List<Country> {

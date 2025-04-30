@@ -1,6 +1,6 @@
-package com.example.practica.domain.repository.CountryRepository.kt
+package com.example.practica.domain.repository.CountryRepository
 
-import com.example.practica.domain.model.Country.kt.Country
+import com.example.practica.domain.model.Country.Country
 
 interface CountryRepository {
     suspend fun getAllCountries(): List<Country>

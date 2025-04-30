@@ -1,4 +1,5 @@
-package com.example.practica.domain.model.Country.kt
+package com.example.practica.domain.model.Country
+
 
 data class Country(
     val name: String,

@@ -1,6 +1,6 @@
 package com.example.practica.presentation.Country.CountryState.kt
 
-import com.example.practica.domain.model.Country.kt.Country
+import com.example.practica.domain.model.Country.Country
 
 data class CountryState(
     val isLoading: Boolean = false,

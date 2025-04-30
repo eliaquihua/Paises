@@ -1,4 +1,4 @@
-package com.example.practica.data.remote.dto.CountryDto.kt
+package com.example.practica.data.remote.dto.CountryDto
 
 data class CountryDto(
     val name: NameDto,

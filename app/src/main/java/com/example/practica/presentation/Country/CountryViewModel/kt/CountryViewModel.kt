@@ -5,8 +5,8 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.practica.domain.model.Country.kt.Country
-import com.example.practica.domain.repository.CountryRepository.kt.CountryRepository
+import com.example.practica.domain.model.Country.Country
+import com.example.practica.domain.repository.CountryRepository.CountryRepository
 import com.example.practica.presentation.Country.CountryState.kt.CountryState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
